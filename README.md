@@ -1,147 +1,263 @@
-# Awesome-Quick-Notes-Memo-Management
+# Awesome Quick Notes & Memo Management [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-# Awesome Quick Notes & Memo Management
-
-> A curated list of top Quick Notes and Memo Management platforms — both SaaS/Hosted commercial solutions and open-source alternatives for capturing, organizing, and retrieving short-form notes, memos, and to-dos.
-> 🌟 Star this repo if you find it useful! 🌟
+> A curated list of top Quick Notes and Memo Management platforms — comprehensive SaaS/commercial hosted solutions and self-hosted, privacy-first open-source alternatives for capturing, organizing, and retrieving short-form notes, fleeting memos, and to-dos.
+>
+> 🌟 **Star this repository if you find it helpful!** 🌟
 
 ---
 
 ## 📋 Table of Contents
 
+- [Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
 - [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-  - [Google Keep](#google-keep)
-  - [Apple Notes](#apple-notes)
-  - [Microsoft Sticky Notes](#microsoft-sticky-notes)
-  - [Evernote](#evernote)
-  - [Simplenote](#simplenote)
 - [Open-Source Software](#-open-source-software)
-  - [Memos](#memos)
-  - [Joplin](#joplin)
-  - [TriliumNext Notes](#triliumnext-notes)
-  - [QOwnNotes](#qownnotes)
-  - [Standard Notes](#standard-notes)
-  - [Notesnook](#notesnook)
-  - [Poznote](#poznote)
-  - [Glass Keep](#glass-keep)
-  - [Minoo](#minoo)
+  - [1. AppFlowy](#1-appflowy)
+  - [2. AFFiNE](#2-affine)
+  - [3. Memos](#3-memos)
+  - [4. Joplin](#4-joplin)
+  - [5. Logseq](#5-logseq)
+  - [6. Trilium Notes](#6-trilium-notes)
+  - [7. Foam](#7-foam)
+  - [8. Notesnook](#8-notesnook)
+  - [9. Standard Notes](#9-standard-notes)
+  - [10. SilverBullet](#10-silverbullet)
+  - [11. QOwnNotes](#11-qownnotes)
+  - [12. flatnotes](#12-flatnotes)
+  - [13. TriliumNext Notes](#13-triliumnext-notes)
+  - [14. Poznote](#14-poznote)
+  - [15. Glass Keep](#15-glass-keep)
+  - [16. Minoo](#16-minoo)
 - [Comparison at a Glance](#-comparison-at-a-glance)
 - [Contributing](#-contributing)
+- [License](#-license)
+
+---
+
+## 🌐 Sector Overview & Market Dynamics
+
+The global note-taking and knowledge management software market is valued at approximately **$2.5 billion** and projected to reach **$4.9+ billion by 2030** (expanding at a CAGR of ~12.8% to 15%). The sector exhibits a **hybrid, bifurcated structure**: it is **concentrated at the top**—where ecosystem giants (Apple, Microsoft, Google) capture massive baseline user volume by embedding default note apps into their operating systems—yet **highly fragmented across the independent software and open-source landscape**, where specialized tools compete intensely on local-first privacy, Markdown interoperability, bi-directional linking, end-to-end encryption (E2EE), and AI-assisted workflows.
 
 ---
 
 ## 🟦 SaaS / Hosted Platforms
 
-Commercial, cloud-hosted Quick Notes and Memo Management platforms. These are not open-source but are included as reference points for feature comparison.
+Commercial, cloud-hosted quick notes and memo management services sorted by parent company scale (valuation / market capitalization descending).
 
-### Google Keep
-**Type:** Quick capture with color-coded notes and reminders
-Google Keep is a widely used quick-capture tool with one-tap note creation, color-coded notes, checklists, images, and location-based reminders. It has a clean, familiar interface and syncs across devices via Google's cloud. **Trade-off:** Notes are stored in a proprietary format, making migration to other tools difficult, and there is no Markdown support [citation:2].
-
-### Apple Notes
-**Type:** Native note-taking within Apple ecosystem
-Apple Notes provides quick note capture, checklists, images, and drawing within the Apple ecosystem. It syncs via iCloud and integrates with Siri, Safari, and other Apple apps. **Trade-off:** Locked to Apple platforms, with no official cross-platform support.
-
-### Microsoft Sticky Notes
-**Type:** Lightweight sticky notes on Windows
-Microsoft Sticky Notes provides simple, color-coded sticky notes that sit on the Windows desktop, with sync across devices via Microsoft account. It is positioned for quick, ephemeral notes rather than structured knowledge management.
-
-### Evernote
-**Type:** Long-standing note-taking with web clipping
-Evernote is a mature note-taking platform with web clipping, notebooks, tags, and search. It is positioned for users wanting a comprehensive personal knowledge base, though its free tier has become increasingly restrictive and its proprietary format locks in data [citation:6].
-
-### Simplenote
-**Type:** Minimalist cross-platform notes with Markdown
-Simplenote is a completely free, minimalist note-taking app with Markdown support, tags, and cross-device sync. **Important caveat:** The client apps are open source, but the server code is not, and the service is owned by Automattic [citation:6].
+| Product | Parent Company / Vendor | Company Valuation / Market Cap | Pricing (Starting Paid Tier) | Free Tier Limit | Highlights & Best For |
+|---|---|---|---|---|---|
+| **Apple Notes** | Apple Inc. (NASDAQ: AAPL) | ~$5.2 Trillion Market Cap | **$0.99/month** (iCloud+ 50 GB storage tier) | **5 GB total iCloud storage** across all Apple services; unlimited text notes, checklists, scanning, and sketches within storage limit. | Seamless Apple ecosystem integration, instantaneous Siri and Control Center quick capture, native lock-screen memos. |
+| **Microsoft Sticky Notes** | Microsoft Corp. (NASDAQ: MSFT) | ~$3.9 Trillion Market Cap | **$6.99/month** or **$69.99/year** (Microsoft 365 Personal starting tier) | **5 GB free cloud storage** (Microsoft account); unlimited sticky notes and desktop memos synced via OneNote cloud. | Instant desktop sticky notes on Windows, OneNote mobile integration, pen-and-ink support. |
+| **Google Keep** | Alphabet Inc. (NASDAQ: GOOGL) | ~$3.6 Trillion Market Cap | **$1.99/month** or **$19.99/year** (Google One 100 GB basic tier) | **15 GB free storage** (shared across Google Drive, Gmail, Google Photos); unlimited color-coded notes, checkboxes, audio memos, and image capture. | Color-coded card view, instant search, location/time-based reminders, Google Workspace integration. |
+| **Evernote** | Bending Spoons S.p.A. | ~$18.4 Billion Valuation | **$14.99/month** or **$99.00/year** (Evernote Starter plan) | **Strict 50 notes maximum, 1 notebook, 1 active connected device**, 1 GB monthly upload limit, and 200 MB maximum note size. | Power web clipping, full-text document search, PDF indexing, and long-standing notebook organizational hierarchy. |
+| **Simplenote** | Automattic Inc. | ~$7.5 Billion Valuation | **$0.00** (Entirely free service subsidized by Automattic; paid Automattic plans apply to WordPress/WooCommerce) | **Unlimited notes, unlimited device sync, and full version history** across all platforms without expiration. Client apps are open source. | Distraction-free minimalist Markdown memo writing, instant cross-platform background sync, shareable web note URLs. |
 
 ---
 
 ## 🟩 Open-Source Software
 
-Self-hosted, community-driven Quick Notes and Memo Management tools. The open-source ecosystem is strong for quick capture, with several mature self-hostable options.
+Self-hosted, community-driven Quick Notes and Memo Management tools. Sorted by GitHub star count (descending).
 
-### Memos
-**Stack:** Go / React / SQLite / Docker | **License:** Open Source
-Memos is the closest open-source equivalent to Google Keep, with **58,000+ GitHub stars** and a familiar quick-capture interface [citation:2]. Key features include a **quick capture window** for text, attachments, and location tags, **Markdown support**, hashtag-based organization with sidebar tag filters, slash commands for to-do lists and tables, and a mobile app [citation:2][citation:12]. Notes are stored as plain-text Markdown files, giving full data portability. It is **self-hostable via Docker**, keeping notes private and synced between devices [citation:2]. **Trade-off:** It is focused on short-form notes rather than long-form documents, and initial Docker setup may require some learning [citation:12].
-**Best for:** Users wanting a self-hosted, Markdown-native Google Keep replacement with quick capture, tags, and full data ownership.
+### 1. AppFlowy
+[![GitHub stars](https://img.shields.io/github/stars/AppFlowy-IO/AppFlowy?style=social&color=white)](https://github.com/AppFlowy-IO/AppFlowy/stargazers)
+* **Repository:** [AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy)
+* **Stack:** Flutter / Rust / SQLite | **License:** AGPL-3.0
+* **Overview:** Open-source, local-first alternative to Notion and quick notes workspaces. Built with Rust and Flutter for fast native performance across desktop and mobile.
+* **Key Features:** Fast note taking, Kanban boards, database grid views, nested pages, end-to-end local data privacy, and self-hosted cloud sync options.
+* **Best for:** Users who want a responsive, customizable local-first workspace for notes, to-dos, and project boards.
 
-### Joplin
-**Stack:** JavaScript / React Native / SQLite | **License:** AGPL-3.0
-Joplin is the most widely recommended open-source note-taking app, rated **4.5/5 by PCMag** as the "Best Open-Source App" . It supports **Markdown** with an optional Rich Text Editor, end-to-end encryption, and sync via Dropbox, OneDrive, Nextcloud, or WebDAV [citation:8]. Key features include **web clipper**, PDF attachment with offline OCR, Mermaid diagrams, Katex, reminders, and a **plugin ecosystem** [citation:8]. It runs on all major platforms including mobile . **Trade-off:** Notes are stored in an SQLite database rather than plain Markdown files, which some users prefer to avoid [citation:11].
-**Best for:** Users wanting a feature-rich, cross-platform Evernote replacement with plugins, encryption, and flexible sync options.
+---
 
-### TriliumNext Notes
-**Stack:** Node.js / SQLite / Docker | **License:** AGPL-3.0
-TriliumNext Notes is a hierarchical note-taking app that runs locally or on your own server, with **SQLite storage** (single `document.db` file) [citation:3]. Key features include **note cloning** (a note exists in multiple places without duplicating data), WYSIWYG editor with Markdown support, **Excalidraw canvas**, Mermaid diagrams, mind maps, geo maps, Kanban boards, and a **full-text search engine** [citation:3]. It supports **self-hosted sync** across machines and has native ENEX/Markdown import for Evernote migration. **Trade-off:** No official mobile app (though TriliumDroid exists on Android), and network attachments are limited to 1 GB per file [citation:3].
-**Best for:** Power users wanting a hierarchical knowledge base with advanced diagramming and self-hosted sync, accepting a steeper learning curve.
+### 2. AFFiNE
+[![GitHub stars](https://img.shields.io/github/stars/toeverything/AFFiNE?style=social&color=white)](https://github.com/toeverything/AFFiNE/stargazers)
+* **Repository:** [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE)
+* **Stack:** TypeScript / Rust / React | **License:** MIT
+* **Overview:** Next-generation all-in-one knowledge base and visual memo canvas that merges structured text notes with infinite whiteboard ideation.
+* **Key Features:** Dual-mode page and whiteboard views, real-time collaboration, block-based quick memo capture, complete offline-first architecture, and Docker self-hosting.
+* **Best for:** Visual thinkers and team members wanting to blend quick memos with diagrams and mind maps in one unified document.
 
-### QOwnNotes
-**Stack:** C++ / Qt | **License:** MIT / GPL
-QOwnNotes is an open-source notepad with **Markdown support** and todo list management for Linux, macOS, and Windows [citation:4]. Its key differentiator is **Nextcloud/ownCloud integration**: notes are stored as **plain-text Markdown files** and synced via the file sync functionality, with optional mobile access through Nextcloud Notes [citation:4][citation:9]. It works with any file sync service (Syncthing, Dropbox) and emphasizes plain-text data freedom [citation:4].
-**Best for:** Nextcloud/ownCloud users wanting plain-text Markdown notes synced through their existing file sync infrastructure.
+---
 
-### Standard Notes
-**Stack:** TypeScript / React Native | **License:** AGPL-3.0 (core)
-Standard Notes is a privacy-focused note-taking app with **end-to-end encryption** and unlimited device syncing on the free plan [citation:6]. The free tier includes plain-text notes, tags, offline access, and PIN protection. Paid plans add Markdown, checklists, spreadsheets, and web clipper [citation:6]. **Trade-off:** Advanced features are gated to paid plans, and the free tier is intentionally minimal.
-**Best for:** Users prioritizing encryption and privacy above all, accepting a simpler feature set on the free tier.
+### 3. Memos
+[![GitHub stars](https://img.shields.io/github/stars/usememos/memos?style=social&color=white)](https://github.com/usememos/memos/stargazers)
+* **Repository:** [usememos/memos](https://github.com/usememos/memos)
+* **Stack:** Go / React / SQLite / Docker | **License:** MIT
+* **Overview:** The premier self-hosted, privacy-first alternative to Google Keep and micro-blogging memo scratchpads.
+* **Key Features:** Instant floating capture window, Markdown formatting, `#tag` filtering, daily contribution heatmaps, REST/gRPC API, single Docker command deployment, and multi-user support.
+* **Best for:** Anyone seeking an instant, clean, self-hosted Google Keep alternative with pure Markdown storage and zero vendor lock-in.
 
-### Notesnook
-**Stack:** TypeScript / React / ASP.NET Core | **License:** GPL-3.0
-Notesnook is a fully open-source, end-to-end encrypted Evernote alternative with **14,700+ GitHub stars** [citation:13]. Its free plan is notably permissive: **unlimited devices**, 50MB monthly storage, 10MB file uploads, 50 notebooks, and 50 tags [citation:6]. Features include rich-text notes, checklists, headings, images, attachments, reminders, and mathematical formula formatting [citation:6]. It is actively maintained (last pushed October 2026) [citation:13].
-**Best for:** Users wanting a feature-rich, encrypted Evernote alternative with a generous free plan and no device limits.
+---
 
-### Poznote
-**Stack:** PHP / SQLite / Docker | **License:** Open Source
-Poznote is a self-hosted note-taking app that supports **six modes**: notes, Kanban, tasks, dashboards, Markdown, and graphs [citation:5]. Features include AI integration (OpenAI, Claude, Ollama), a browser extension for saving URLs and screenshots, PWA support for mobile, automatic backups, and **GitHub sync** [citation:5]. Markdown notes support Mermaid flowcharts and LaTeX formulas. **Trade-off:** It is a broader workspace than a pure quick-notes app, which may be overkill for simple memo capture.
-**Best for:** Users wanting a self-hosted all-in-one workspace with Kanban, AI assistance, and multiple note modes beyond simple memo capture.
+### 4. Joplin
+[![GitHub stars](https://img.shields.io/github/stars/laurent22/joplin?style=social&color=white)](https://github.com/laurent22/joplin/stargazers)
+* **Repository:** [laurent22/joplin](https://github.com/laurent22/joplin)
+* **Stack:** TypeScript / React Native / SQLite | **License:** AGPL-3.0
+* **Overview:** Battle-tested, award-winning open-source note-taking application designed as a complete, encrypted replacement for Evernote.
+* **Key Features:** End-to-end encryption (E2EE), Markdown + Rich Text editor, web clipper extension, plugin ecosystem, geolocation tags, and sync via Nextcloud, WebDAV, Dropbox, or Joplin Cloud.
+* **Best for:** Cross-platform users wanting high security, encrypted synchronization, and rich web-clipping capabilities.
 
-### Glass Keep
-**Stack:** Docker / PWA | **License:** Open Source
-Glass Keep is a self-hosted Google Keep alternative with a **one-click Docker install** [citation:7]. Features include Markdown editor, checklists, images, tags, pinning, drag-and-drop, PWA support, and **real-time collaboration for checklists** (shared ticking) [citation:7]. It can **import Google Keep notes** from Google Takeout `.json` files, making migration straightforward [citation:7].
-**Best for:** Google Keep users wanting a direct, self-hosted migration path with real-time checklist collaboration.
+---
 
-### Minoo
-**Stack:** Swift / Markdown / Local Network Sync | **License:** MIT
-Minoo is a minimalist cross-platform Markdown note-taking app that syncs across devices via **local network** without requiring a server or account [citation:15]. Features include plain `.md` file storage, command palette and full-text search, multiple themes, and intuitive touch gestures [citation:15]. **Trade-off:** Local-network sync limits it to devices on the same network, and it is primarily Apple-platform focused.
-**Best for:** Apple users wanting a minimal, server-free Markdown notes app with local-network sync and full data ownership.
+### 5. Logseq
+[![GitHub stars](https://img.shields.io/github/stars/logseq/logseq?style=social&color=white)](https://github.com/logseq/logseq/stargazers)
+* **Repository:** [logseq/logseq](https://github.com/logseq/logseq)
+* **Stack:** ClojureScript / Electron | **License:** AGPL-3.0
+* **Overview:** Privacy-first, open-source outliner and networked notebook built on top of plain-text Markdown and Org-mode files.
+* **Key Features:** Daily journals for rapid memo capture, bi-directional linking (`[[wikilinks]]`), PDF annotations, flashcards, interactive graph view, and local file storage.
+* **Best for:** Researchers, developers, and thinkers practicing Zettelkasten or daily journaling who need connected thought graphs.
+
+---
+
+### 6. Trilium Notes
+[![GitHub stars](https://img.shields.io/github/stars/zadam/trilium?style=social&color=white)](https://github.com/zadam/trilium/stargazers)
+* **Repository:** [zadam/trilium](https://github.com/zadam/trilium)
+* **Stack:** JavaScript / Node.js / SQLite | **License:** AGPL-3.0
+* **Overview:** Deeply customizable hierarchical note-taking application designed for building large personal knowledge bases.
+* **Key Features:** Arbitrarily deep tree structures, note cloning across multiple folders, script execution, automated note attributes, internal link diagrams, and self-hosted server synchronization.
+* **Best for:** Power users with complex, interlinked knowledge hierarchies and technical documentation workflows.
+
+---
+
+### 7. Foam
+[![GitHub stars](https://img.shields.io/github/stars/foambubble/foam?style=social&color=white)](https://github.com/foambubble/foam/stargazers)
+* **Repository:** [foambubble/foam](https://github.com/foambubble/foam)
+* **Stack:** TypeScript / VS Code Extension | **License:** MIT
+* **Overview:** A personal knowledge management and quick-notes workspace built entirely inside Visual Studio Code and Git.
+* **Key Features:** Uses plain Markdown files, backlinking, graph visualization, autocomplete note linking, Git version control, and leverages the entire VS Code extension ecosystem.
+* **Best for:** Software engineers and developers who want note-taking embedded seamlessly within their coding environment.
+
+---
+
+### 8. Notesnook
+[![GitHub stars](https://img.shields.io/github/stars/streetwriters/notesnook?style=social&color=white)](https://github.com/streetwriters/notesnook/stargazers)
+* **Repository:** [streetwriters/notesnook](https://github.com/streetwriters/notesnook)
+* **Stack:** TypeScript / React / Rust | **License:** GPL-3.0
+* **Overview:** Fully open-source, zero-knowledge end-to-end encrypted note-taking app built as a modern, private alternative to Evernote.
+* **Key Features:** XChaCha20-Poly1305 encryption, generous free tier with unlimited devices, rich text notes, checklists, cross-platform mobile and desktop apps, and encrypted attachments.
+* **Best for:** Privacy-conscious individuals seeking a polished, zero-setup encrypted notes app across all their devices.
+
+---
+
+### 9. Standard Notes
+[![GitHub stars](https://img.shields.io/github/stars/standardnotes/app?style=social&color=white)](https://github.com/standardnotes/app)
+[![GitHub stars](https://img.shields.io/github/stars/standardnotes/app?style=social&color=white)](https://github.com/standardnotes/app/stargazers)
+* **Repository:** [standardnotes/app](https://github.com/standardnotes/app)
+* **Stack:** TypeScript / React Native | **License:** AGPL-3.0
+* **Overview:** Resilient, end-to-end encrypted notes app dedicated to long-term digital preservation and uncompromising confidentiality.
+* **Key Features:** Zero-knowledge client-side encryption, unlimited device sync, plain text, offline access, self-hostable sync server, and automated backup routines.
+* **Best for:** Users whose highest priorities are guaranteed encryption, clean aesthetics, and long-term data durability.
+
+---
+
+### 10. SilverBullet
+[![GitHub stars](https://img.shields.io/github/stars/silverbulletmd/silverbullet?style=social&color=white)](https://github.com/silverbulletmd/silverbullet/stargazers)
+* **Repository:** [silverbulletmd/silverbullet](https://github.com/silverbulletmd/silverbullet)
+* **Stack:** TypeScript / Deno | **License:** MIT
+* **Overview:** An extensible, open-source personal knowledge management system written as a single binary web application that operates directly on plain Markdown files.
+* **Key Features:** Live query language for dynamic note dashboards, keyboard-centric interface, PWA support with offline syncing, plug-in extensions, and lightweight resource usage.
+* **Best for:** Minimalists and developers who want queryable, scriptable Markdown notes that run in any modern web browser.
+
+---
+
+### 11. QOwnNotes
+[![GitHub stars](https://img.shields.io/github/stars/pbek/QOwnNotes?style=social&color=white)](https://github.com/pbek/QOwnNotes/stargazers)
+* **Repository:** [pbek/QOwnNotes](https://github.com/pbek/QOwnNotes)
+* **Stack:** C++ / Qt | **License:** GPL-2.0
+* **Overview:** Open-source plain-text Markdown notepad with full Nextcloud / ownCloud integration.
+* **Key Features:** Direct local `.md` file editing, synchronization via Nextcloud/ownCloud/Syncthing, task management, vim key mode, scriptable in QML/JavaScript, and encrypted notes support.
+* **Best for:** Self-hosters who store their files on Nextcloud or Syncthing and want a fast desktop client.
+
+---
+
+### 12. flatnotes
+[![GitHub stars](https://img.shields.io/github/stars/dullage/flatnotes?style=social&color=white)](https://github.com/dullage/flatnotes/stargazers)
+* **Repository:** [dullage/flatnotes](https://github.com/dullage/flatnotes)
+* **Stack:** Python / FastAPI / Vue.js | **License:** MIT
+* **Overview:** A self-hosted, headless-compatible, distraction-free web note-taking app that directly reads and writes Markdown files from a directory without a database.
+* **Key Features:** Raw file storage (no proprietary database), powerful full-text search engine, wikilinks support, responsive mobile-friendly UI, and one-container Docker deployment.
+* **Best for:** Anyone who wants a zero-overhead web interface for a folder of flat Markdown notes.
+
+---
+
+### 13. TriliumNext Notes
+[![GitHub stars](https://img.shields.io/github/stars/TriliumNext/Notes?style=social&color=white)](https://github.com/TriliumNext/Notes/stargazers)
+* **Repository:** [TriliumNext/Notes](https://github.com/TriliumNext/Notes)
+* **Stack:** TypeScript / Node.js / SQLite / Docker | **License:** AGPL-3.0
+* **Overview:** The active community-led continuation of Trilium Notes, committed to modernizing dependencies and expanding features.
+* **Key Features:** Hierarchical note tree, Excalidraw integration, note cloning, automated attributes, SQLite backend, and native Evernote ENEX import.
+* **Best for:** Teams and power users seeking the active, community-maintained future of the Trilium ecosystem.
+
+---
+
+### 14. Poznote
+[![GitHub stars](https://img.shields.io/github/stars/timothepoznanski/poznote?style=social&color=white)](https://github.com/timothepoznanski/poznote/stargazers)
+* **Repository:** [timothepoznanski/poznote](https://github.com/timothepoznanski/poznote)
+* **Stack:** PHP / SQLite / Docker | **License:** MIT
+* **Overview:** Modern, self-hosted web workspace supporting six interchangeable note-taking and management modes.
+* **Key Features:** Kanban boards, task lists, calendar views, graph visualizer, Excalidraw sketches, Git synchronization (GitHub/Forgejo), and Model Context Protocol (MCP) server support.
+* **Best for:** Users who want multi-modal memo capture combined with Kanban project management and AI assistant integration.
+
+---
+
+### 15. Glass Keep
+[![GitHub stars](https://img.shields.io/github/stars/nikunjsingh93/react-glass-keep?style=social&color=white)](https://github.com/nikunjsingh93/react-glass-keep/stargazers)
+* **Repository:** [nikunjsingh93/react-glass-keep](https://github.com/nikunjsingh93/react-glass-keep)
+* **Stack:** React / Express / SQLite / Docker | **License:** MIT
+* **Overview:** A modern self-hosted Google Keep alternative wrapped in a glassmorphism aesthetic UI.
+* **Key Features:** Quick note capture, draggable checklist items, color tags, Google Takeout import support, local AI assistant (RAG with Llama), and cross-platform desktop/PWA clients.
+* **Best for:** Users who love the visual look of Google Keep cards but want self-hosted privacy and local AI querying.
+
+---
+
+### 16. Minoo
+[![GitHub stars](https://img.shields.io/github/stars/ScepticDope/Minoo?style=social&color=white)](https://github.com/ScepticDope/Minoo/stargazers)
+* **Repository:** [ScepticDope/Minoo](https://github.com/ScepticDope/Minoo)
+* **Stack:** Tauri v2 / Rust / JavaScript | **License:** MIT
+* **Overview:** Lightweight, minimalist cross-platform Markdown memo app with decentralized local-network synchronization.
+* **Key Features:** Peer-to-peer local network sync without servers or cloud accounts, pure `.md` folder storage, command palette, themes, and instant startup time.
+* **Best for:** Users who want zero-configuration local-area sync for Markdown memos without trusting third-party servers.
 
 ---
 
 ## 📊 Comparison at a Glance
 
-| Software | License | Stack | Quick Capture | Markdown | Self-Hosted | Best For |
-|----------|---------|-------|---------------|----------|-------------|----------|
-| **Google Keep** | Proprietary | Cloud | ✅ One-tap | ❌ | ❌ | Quick color-coded notes |
-| **Evernote** | Proprietary | Cloud | ✅ | ❌ | ❌ | Web clipping + notebooks |
-| **Memos** | Open Source | Go/React/Docker | ✅ Quick window | ✅ | ✅ | Self-hosted Keep alternative |
-| **Joplin** | AGPL-3.0 | JS/React Native | ✅ | ✅ | ✅ | Feature-rich Evernote replacement |
-| **TriliumNext** | AGPL-3.0 | Node.js/SQLite | (Hierarchical) | ✅ | ✅ | Knowledge base + diagrams |
-| **QOwnNotes** | MIT/GPL | C++/Qt | ✅ | ✅ | ✅ | Nextcloud plain-text notes |
-| **Standard Notes** | AGPL-3.0 | TypeScript | ✅ | (Paid) | ✅ (Sync) | Privacy-first encryption |
-| **Notesnook** | GPL-3.0 | TypeScript | ✅ | (Rich text) | ✅ | Encrypted + unlimited devices |
-| **Poznote** | Open Source | PHP/SQLite | (Multi-mode) | ✅ | ✅ | All-in-one workspace |
-| **Glass Keep** | Open Source | Docker | ✅ | ✅ | ✅ | Keep migration + collab |
-| **Minoo** | MIT | Swift | ✅ | ✅ | ✅ (Local) | Minimal Apple notes |
+| Tool | License | Primary Stack | Quick Capture | Markdown | Self-Hosted | Mobile App | Sync Architecture |
+|---|---|---|:---:|:---:|:---:|:---:|---|
+| **Apple Notes** | Proprietary | Apple Native | ✅ | ❌ | ❌ | ✅ | Apple iCloud |
+| **Microsoft Sticky Notes** | Proprietary | Windows / C++ | ✅ | ❌ | ❌ | ✅ | Microsoft Exchange / OneNote |
+| **Google Keep** | Proprietary | Cloud Web/Mobile | ✅ | ❌ | ❌ | ✅ | Google Cloud Sync |
+| **Evernote** | Proprietary | Cloud Web/Desktop | ✅ | ❌ | ❌ | ✅ | Evernote Cloud |
+| **Simplenote** | Proprietary (Client Open) | Electron / React Native | ✅ | ✅ | ❌ | ✅ | Automattic Simperium Sync |
+| **AppFlowy** | AGPL-3.0 | Flutter / Rust | ✅ | ✅ | ✅ | ✅ | Local-first / AppFlowy Cloud / Self-hosted |
+| **AFFiNE** | MIT | TypeScript / Rust | ✅ | ✅ | ✅ | ✅ | Local-first / AFFiNE Cloud / Docker |
+| **Memos** | MIT | Go / React / SQLite | ✅ | ✅ | ✅ | ✅ (PWA/Community) | Self-hosted Docker / REST API |
+| **Joplin** | AGPL-3.0 | TypeScript / React Native | ✅ | ✅ | ✅ | ✅ | Nextcloud / WebDAV / Dropbox / Joplin Cloud |
+| **Logseq** | AGPL-3.0 | ClojureScript / Electron | ✅ | ✅ | ✅ (Local-first) | ✅ | Local Git / Logseq Sync |
+| **Trilium Notes** | AGPL-3.0 | Node.js / SQLite | ⚠️ | ✅ | ✅ | ❌ (Community) | Self-hosted Trilium Server |
+| **Foam** | MIT | TypeScript / VS Code | ✅ | ✅ | ✅ (Local-first) | ❌ | Git / GitHub repository sync |
+| **Notesnook** | GPL-3.0 | TypeScript / React / Rust | ✅ | ✅ | ✅ | ✅ | End-to-End Encrypted Sync Server |
+| **Standard Notes** | AGPL-3.0 | TypeScript / React Native | ✅ | ⚠️ (Paid) | ✅ | ✅ | E2EE Sync Server |
+| **SilverBullet** | MIT | TypeScript / Deno | ✅ | ✅ | ✅ | ✅ (PWA) | Local file storage / WebDAV |
+| **QOwnNotes** | GPL-2.0 | C++ / Qt | ✅ | ✅ | ✅ | ✅ (via Nextcloud Notes) | Nextcloud / ownCloud / Syncthing |
+| **flatnotes** | MIT | Python / Vue.js | ✅ | ✅ | ✅ | ✅ (PWA) | Filesystem directory / Docker |
+| **TriliumNext** | AGPL-3.0 | TypeScript / Node.js | ⚠️ | ✅ | ✅ | ❌ (Community) | Self-hosted Docker / Server sync |
+| **Poznote** | MIT | PHP / SQLite | ✅ | ✅ | ✅ | ✅ (PWA) | Git sync / Self-hosted web server |
+| **Glass Keep** | MIT | React / SQLite | ✅ | ✅ | ✅ | ✅ (PWA/Tauri) | Self-hosted Docker server |
+| **Minoo** | MIT | Tauri / Rust | ✅ | ✅ | ✅ (Local-first) | ✅ | Local network P2P sync |
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you know of an open-source Quick Notes or Memo Management tool that should be listed here, please open a pull request with:
+Contributions, additions, and suggestions are warmly encouraged! To propose a new open-source note-taking or memo management tool:
 
-- Project name and URL
-- Brief description (1–2 sentences)
-- Stack and license
-- Why it stands out
-
-Please ensure the project is actively maintained (releases within the last 12 months) and genuinely open-source. Note that the open-source ecosystem **splits** between **quick-capture Keep alternatives** (Memos, Glass Keep), **feature-rich Evernote replacements** (Joplin, Notesnook), **plain-text Nextcloud integration** (QOwnNotes), and **hierarchical knowledge bases** (TriliumNext). **Memos** is the most direct open-source Google Keep replacement with 58k+ stars and Markdown-native quick capture [citation:2]. **Joplin** is the most widely recommended open-source note-taking app overall, rated by PCMag as the best open-source option for 2026 . For users deeply invested in Nextcloud, **QOwnNotes** offers the cleanest plain-text integration [citation:4].
+1. Fork this repository.
+2. Verify that the project is actively maintained (commits or releases within the last 12 months) and open source.
+3. Add the project to the list with its GitHub repository link, star badge, technology stack, license, and stand-out capabilities.
+4. Ensure the open-source list remains sorted by GitHub star count descending.
+5. Open a Pull Request with a clear description of why the tool is a great addition.
 
 ---
 
 ## 📄 License
 
-This list is released under CC0 1.0 Universal (Public Domain). The software projects listed retain their respective licenses.
-
----
-
-⭐ **If this list helped you discover a useful tool, please star the repo!** ⭐
+This repository and curated list are released under the [Creative Commons Zero v1.0 Universal](LICENSE) (CC0 1.0) Public Domain Dedication. All listed software platforms, logos, and trademarks belong to their respective copyright holders.
