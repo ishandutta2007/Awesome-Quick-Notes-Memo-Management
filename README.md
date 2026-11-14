@@ -1,6 +1,19 @@
-# Awesome Quick Notes & Memo Management [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Quick Notes & Memo Management Banner" width="100%" />
+</p>
 
-> A curated list of top Quick Notes and Memo Management platforms — comprehensive SaaS/commercial hosted solutions and self-hosted, privacy-first open-source alternatives for capturing, organizing, and retrieving short-form notes, fleeting memos, and to-dos.
+# 📝 Awesome Quick Notes & Memo Management
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://awesome.re/badge.svg" alt="Mentioned in Awesome" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Quick-Notes-Memo-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Quick-Notes-Memo-Management?style=flat-square&logo=github" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Quick-Notes-Memo-Management/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Quick-Notes-Memo-Management?style=flat-square&logo=github" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Quick-Notes-Memo-Management/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg?style=flat-square" alt="License: CC0 1.0" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+> 💡 **A curated list of top Quick Notes and Memo Management platforms** — comprehensive SaaS/commercial hosted solutions and self-hosted, privacy-first open-source alternatives for capturing, organizing, and retrieving short-form notes, fleeting memos, and to-dos.
 >
 > 🌟 **Star this repository if you find it helpful!** 🌟
 
@@ -8,28 +21,30 @@
 
 ## 📋 Table of Contents
 
-- [Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
-- [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-- [Open-Source Software](#-open-source-software)
-  - [1. AppFlowy](#1-appflowy)
-  - [2. AFFiNE](#2-affine)
-  - [3. Memos](#3-memos)
-  - [4. Joplin](#4-joplin)
-  - [5. Logseq](#5-logseq)
-  - [6. Trilium Notes](#6-trilium-notes)
-  - [7. Foam](#7-foam)
-  - [8. Notesnook](#8-notesnook)
-  - [9. Standard Notes](#9-standard-notes)
-  - [10. SilverBullet](#10-silverbullet)
-  - [11. QOwnNotes](#11-qownnotes)
-  - [12. flatnotes](#12-flatnotes)
-  - [13. TriliumNext Notes](#13-triliumnext-notes)
-  - [14. Poznote](#14-poznote)
-  - [15. Glass Keep](#15-glass-keep)
-  - [16. Minoo](#16-minoo)
-- [Comparison at a Glance](#-comparison-at-a-glance)
-- [Contributing](#-contributing)
-- [License](#-license)
+- [🌐 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🟦 SaaS / Hosted Platforms](#-saas--hosted-platforms)
+- [🟩 Open-Source Software](#-open-source-software)
+  - [1. 🚀 AppFlowy](#1--appflowy)
+  - [2. 🎨 AFFiNE](#2--affine)
+  - [3. 📌 Memos](#3--memos)
+  - [4. 📓 Joplin](#4--joplin)
+  - [5. 🧠 Logseq](#5--logseq)
+  - [6. 🌳 Trilium Notes](#6--trilium-notes)
+  - [7. 🧪 Foam](#7--foam)
+  - [8. 🛡️ Notesnook](#8-️-notesnook)
+  - [9. 🔐 Standard Notes](#9--standard-notes)
+  - [10. ⚡ SilverBullet](#10--silverbullet)
+  - [11. 📂 QOwnNotes](#11--qownnotes)
+  - [12. 📄 flatnotes](#12--flatnotes)
+  - [13. 🌿 TriliumNext Notes](#13--triliumnext-notes)
+  - [14. 🧭 Poznote](#14--poznote)
+  - [15. 🪟 Glass Keep](#15--glass-keep)
+  - [16. 🕊️ Minoo](#16-️-minoo)
+- [📊 Comparison at a Glance](#-comparison-at-a-glance)
+- [🤝 Contributing](#-contributing)
+- [💖 Support](#-support)
+- [📈 Star History](#-star-history)
+- [📄 License](#-license)
 
 ---
 
@@ -45,11 +60,11 @@ Commercial, cloud-hosted quick notes and memo management services sorted by pare
 
 | Product | Parent Company / Vendor | Company Valuation / Market Cap | Pricing (Starting Paid Tier) | Free Tier Limit | Highlights & Best For |
 |---|---|---|---|---|---|
-| **Apple Notes** | Apple Inc. (NASDAQ: AAPL) | ~$5.2 Trillion Market Cap | **$0.99/month** (iCloud+ 50 GB storage tier) | **5 GB total iCloud storage** across all Apple services; unlimited text notes, checklists, scanning, and sketches within storage limit. | Seamless Apple ecosystem integration, instantaneous Siri and Control Center quick capture, native lock-screen memos. |
-| **Microsoft Sticky Notes** | Microsoft Corp. (NASDAQ: MSFT) | ~$3.9 Trillion Market Cap | **$6.99/month** or **$69.99/year** (Microsoft 365 Personal starting tier) | **5 GB free cloud storage** (Microsoft account); unlimited sticky notes and desktop memos synced via OneNote cloud. | Instant desktop sticky notes on Windows, OneNote mobile integration, pen-and-ink support. |
-| **Google Keep** | Alphabet Inc. (NASDAQ: GOOGL) | ~$3.6 Trillion Market Cap | **$1.99/month** or **$19.99/year** (Google One 100 GB basic tier) | **15 GB free storage** (shared across Google Drive, Gmail, Google Photos); unlimited color-coded notes, checkboxes, audio memos, and image capture. | Color-coded card view, instant search, location/time-based reminders, Google Workspace integration. |
-| **Evernote** | Bending Spoons S.p.A. | ~$18.4 Billion Valuation | **$14.99/month** or **$99.00/year** (Evernote Starter plan) | **Strict 50 notes maximum, 1 notebook, 1 active connected device**, 1 GB monthly upload limit, and 200 MB maximum note size. | Power web clipping, full-text document search, PDF indexing, and long-standing notebook organizational hierarchy. |
-| **Simplenote** | Automattic Inc. | ~$7.5 Billion Valuation | **$0.00** (Entirely free service subsidized by Automattic; paid Automattic plans apply to WordPress/WooCommerce) | **Unlimited notes, unlimited device sync, and full version history** across all platforms without expiration. Client apps are open source. | Distraction-free minimalist Markdown memo writing, instant cross-platform background sync, shareable web note URLs. |
+| **🍎 Apple Notes** | Apple Inc. (NASDAQ: AAPL) | ~$5.2 Trillion Market Cap | **$0.99/month** (iCloud+ 50 GB storage tier) | **5 GB total iCloud storage** across all Apple services; unlimited text notes, checklists, scanning, and sketches within storage limit. | 📱 Seamless Apple ecosystem integration, instantaneous Siri and Control Center quick capture, native lock-screen memos. |
+| **🪟 Microsoft Sticky Notes** | Microsoft Corp. (NASDAQ: MSFT) | ~$3.9 Trillion Market Cap | **$6.99/month** or **$69.99/year** (Microsoft 365 Personal starting tier) | **5 GB free cloud storage** (Microsoft account); unlimited sticky notes and desktop memos synced via OneNote cloud. | 🖥️ Instant desktop sticky notes on Windows, OneNote mobile integration, pen-and-ink support. |
+| **🔍 Google Keep** | Alphabet Inc. (NASDAQ: GOOGL) | ~$3.6 Trillion Market Cap | **$1.99/month** or **$19.99/year** (Google One 100 GB basic tier) | **15 GB free storage** (shared across Google Drive, Gmail, Google Photos); unlimited color-coded notes, checkboxes, audio memos, and image capture. | 🌈 Color-coded card view, instant search, location/time-based reminders, Google Workspace integration. |
+| **🐘 Evernote** | Bending Spoons S.p.A. | ~$18.4 Billion Valuation | **$14.99/month** or **$99.00/year** (Evernote Starter plan) | **Strict 50 notes maximum, 1 notebook, 1 active connected device**, 1 GB monthly upload limit, and 200 MB maximum note size. | ✂️ Power web clipping, full-text document search, PDF indexing, and long-standing notebook organizational hierarchy. |
+| **📝 Simplenote** | Automattic Inc. | ~$7.5 Billion Valuation | **$0.00** (Entirely free service subsidized by Automattic; paid Automattic plans apply to WordPress/WooCommerce) | **Unlimited notes, unlimited device sync, and full version history** across all platforms without expiration. Client apps are open source. | 🕊️ Distraction-free minimalist Markdown memo writing, instant cross-platform background sync, shareable web note URLs. |
 
 ---
 
@@ -57,7 +72,7 @@ Commercial, cloud-hosted quick notes and memo management services sorted by pare
 
 Self-hosted, community-driven Quick Notes and Memo Management tools. Sorted by GitHub star count (descending).
 
-### 1. AppFlowy
+### 1. 🚀 AppFlowy
 [![GitHub stars](https://img.shields.io/github/stars/AppFlowy-IO/AppFlowy?style=social&color=white)](https://github.com/AppFlowy-IO/AppFlowy/stargazers)
 * **Repository:** [AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy)
 * **Stack:** Flutter / Rust / SQLite | **License:** AGPL-3.0
@@ -67,7 +82,7 @@ Self-hosted, community-driven Quick Notes and Memo Management tools. Sorted by G
 
 ---
 
-### 2. AFFiNE
+### 2. 🎨 AFFiNE
 [![GitHub stars](https://img.shields.io/github/stars/toeverything/AFFiNE?style=social&color=white)](https://github.com/toeverything/AFFiNE/stargazers)
 * **Repository:** [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE)
 * **Stack:** TypeScript / Rust / React | **License:** MIT
@@ -77,7 +92,7 @@ Self-hosted, community-driven Quick Notes and Memo Management tools. Sorted by G
 
 ---
 
-### 3. Memos
+### 3. 📌 Memos
 [![GitHub stars](https://img.shields.io/github/stars/usememos/memos?style=social&color=white)](https://github.com/usememos/memos/stargazers)
 * **Repository:** [usememos/memos](https://github.com/usememos/memos)
 * **Stack:** Go / React / SQLite / Docker | **License:** MIT
@@ -87,7 +102,7 @@ Self-hosted, community-driven Quick Notes and Memo Management tools. Sorted by G
 
 ---
 
-### 4. Joplin
+### 4. 📓 Joplin
 [![GitHub stars](https://img.shields.io/github/stars/laurent22/joplin?style=social&color=white)](https://github.com/laurent22/joplin/stargazers)
 * **Repository:** [laurent22/joplin](https://github.com/laurent22/joplin)
 * **Stack:** TypeScript / React Native / SQLite | **License:** AGPL-3.0
@@ -97,7 +112,7 @@ Self-hosted, community-driven Quick Notes and Memo Management tools. Sorted by G
 
 ---
 
-### 5. Logseq
+### 5. 🧠 Logseq
 [![GitHub stars](https://img.shields.io/github/stars/logseq/logseq?style=social&color=white)](https://github.com/logseq/logseq/stargazers)
 * **Repository:** [logseq/logseq](https://github.com/logseq/logseq)
 * **Stack:** ClojureScript / Electron | **License:** AGPL-3.0
@@ -107,7 +122,7 @@ Self-hosted, community-driven Quick Notes and Memo Management tools. Sorted by G
 
 ---
 
-### 6. Trilium Notes
+### 6. 🌳 Trilium Notes
 [![GitHub stars](https://img.shields.io/github/stars/zadam/trilium?style=social&color=white)](https://github.com/zadam/trilium/stargazers)
 * **Repository:** [zadam/trilium](https://github.com/zadam/trilium)
 * **Stack:** JavaScript / Node.js / SQLite | **License:** AGPL-3.0
@@ -117,7 +132,7 @@ Self-hosted, community-driven Quick Notes and Memo Management tools. Sorted by G
 
 ---
 
-### 7. Foam
+### 7. 🧪 Foam
 [![GitHub stars](https://img.shields.io/github/stars/foambubble/foam?style=social&color=white)](https://github.com/foambubble/foam/stargazers)
 * **Repository:** [foambubble/foam](https://github.com/foambubble/foam)
 * **Stack:** TypeScript / VS Code Extension | **License:** MIT
@@ -127,7 +142,7 @@ Self-hosted, community-driven Quick Notes and Memo Management tools. Sorted by G
 
 ---
 
-### 8. Notesnook
+### 8. 🛡️ Notesnook
 [![GitHub stars](https://img.shields.io/github/stars/streetwriters/notesnook?style=social&color=white)](https://github.com/streetwriters/notesnook/stargazers)
 * **Repository:** [streetwriters/notesnook](https://github.com/streetwriters/notesnook)
 * **Stack:** TypeScript / React / Rust | **License:** GPL-3.0
@@ -137,8 +152,7 @@ Self-hosted, community-driven Quick Notes and Memo Management tools. Sorted by G
 
 ---
 
-### 9. Standard Notes
-[![GitHub stars](https://img.shields.io/github/stars/standardnotes/app?style=social&color=white)](https://github.com/standardnotes/app)
+### 9. 🔐 Standard Notes
 [![GitHub stars](https://img.shields.io/github/stars/standardnotes/app?style=social&color=white)](https://github.com/standardnotes/app/stargazers)
 * **Repository:** [standardnotes/app](https://github.com/standardnotes/app)
 * **Stack:** TypeScript / React Native | **License:** AGPL-3.0
@@ -148,7 +162,7 @@ Self-hosted, community-driven Quick Notes and Memo Management tools. Sorted by G
 
 ---
 
-### 10. SilverBullet
+### 10. ⚡ SilverBullet
 [![GitHub stars](https://img.shields.io/github/stars/silverbulletmd/silverbullet?style=social&color=white)](https://github.com/silverbulletmd/silverbullet/stargazers)
 * **Repository:** [silverbulletmd/silverbullet](https://github.com/silverbulletmd/silverbullet)
 * **Stack:** TypeScript / Deno | **License:** MIT
@@ -158,7 +172,7 @@ Self-hosted, community-driven Quick Notes and Memo Management tools. Sorted by G
 
 ---
 
-### 11. QOwnNotes
+### 11. 📂 QOwnNotes
 [![GitHub stars](https://img.shields.io/github/stars/pbek/QOwnNotes?style=social&color=white)](https://github.com/pbek/QOwnNotes/stargazers)
 * **Repository:** [pbek/QOwnNotes](https://github.com/pbek/QOwnNotes)
 * **Stack:** C++ / Qt | **License:** GPL-2.0
@@ -168,7 +182,7 @@ Self-hosted, community-driven Quick Notes and Memo Management tools. Sorted by G
 
 ---
 
-### 12. flatnotes
+### 12. 📄 flatnotes
 [![GitHub stars](https://img.shields.io/github/stars/dullage/flatnotes?style=social&color=white)](https://github.com/dullage/flatnotes/stargazers)
 * **Repository:** [dullage/flatnotes](https://github.com/dullage/flatnotes)
 * **Stack:** Python / FastAPI / Vue.js | **License:** MIT
@@ -178,7 +192,7 @@ Self-hosted, community-driven Quick Notes and Memo Management tools. Sorted by G
 
 ---
 
-### 13. TriliumNext Notes
+### 13. 🌿 TriliumNext Notes
 [![GitHub stars](https://img.shields.io/github/stars/TriliumNext/Notes?style=social&color=white)](https://github.com/TriliumNext/Notes/stargazers)
 * **Repository:** [TriliumNext/Notes](https://github.com/TriliumNext/Notes)
 * **Stack:** TypeScript / Node.js / SQLite / Docker | **License:** AGPL-3.0
@@ -188,7 +202,7 @@ Self-hosted, community-driven Quick Notes and Memo Management tools. Sorted by G
 
 ---
 
-### 14. Poznote
+### 14. 🧭 Poznote
 [![GitHub stars](https://img.shields.io/github/stars/timothepoznanski/poznote?style=social&color=white)](https://github.com/timothepoznanski/poznote/stargazers)
 * **Repository:** [timothepoznanski/poznote](https://github.com/timothepoznanski/poznote)
 * **Stack:** PHP / SQLite / Docker | **License:** MIT
@@ -198,7 +212,7 @@ Self-hosted, community-driven Quick Notes and Memo Management tools. Sorted by G
 
 ---
 
-### 15. Glass Keep
+### 15. 🪟 Glass Keep
 [![GitHub stars](https://img.shields.io/github/stars/nikunjsingh93/react-glass-keep?style=social&color=white)](https://github.com/nikunjsingh93/react-glass-keep/stargazers)
 * **Repository:** [nikunjsingh93/react-glass-keep](https://github.com/nikunjsingh93/react-glass-keep)
 * **Stack:** React / Express / SQLite / Docker | **License:** MIT
@@ -208,7 +222,7 @@ Self-hosted, community-driven Quick Notes and Memo Management tools. Sorted by G
 
 ---
 
-### 16. Minoo
+### 16. 🕊️ Minoo
 [![GitHub stars](https://img.shields.io/github/stars/ScepticDope/Minoo?style=social&color=white)](https://github.com/ScepticDope/Minoo/stargazers)
 * **Repository:** [ScepticDope/Minoo](https://github.com/ScepticDope/Minoo)
 * **Stack:** Tauri v2 / Rust / JavaScript | **License:** MIT
@@ -222,27 +236,27 @@ Self-hosted, community-driven Quick Notes and Memo Management tools. Sorted by G
 
 | Tool | License | Primary Stack | Quick Capture | Markdown | Self-Hosted | Mobile App | Sync Architecture |
 |---|---|---|:---:|:---:|:---:|:---:|---|
-| **Apple Notes** | Proprietary | Apple Native | ✅ | ❌ | ❌ | ✅ | Apple iCloud |
-| **Microsoft Sticky Notes** | Proprietary | Windows / C++ | ✅ | ❌ | ❌ | ✅ | Microsoft Exchange / OneNote |
-| **Google Keep** | Proprietary | Cloud Web/Mobile | ✅ | ❌ | ❌ | ✅ | Google Cloud Sync |
-| **Evernote** | Proprietary | Cloud Web/Desktop | ✅ | ❌ | ❌ | ✅ | Evernote Cloud |
-| **Simplenote** | Proprietary (Client Open) | Electron / React Native | ✅ | ✅ | ❌ | ✅ | Automattic Simperium Sync |
-| **AppFlowy** | AGPL-3.0 | Flutter / Rust | ✅ | ✅ | ✅ | ✅ | Local-first / AppFlowy Cloud / Self-hosted |
-| **AFFiNE** | MIT | TypeScript / Rust | ✅ | ✅ | ✅ | ✅ | Local-first / AFFiNE Cloud / Docker |
-| **Memos** | MIT | Go / React / SQLite | ✅ | ✅ | ✅ | ✅ (PWA/Community) | Self-hosted Docker / REST API |
-| **Joplin** | AGPL-3.0 | TypeScript / React Native | ✅ | ✅ | ✅ | ✅ | Nextcloud / WebDAV / Dropbox / Joplin Cloud |
-| **Logseq** | AGPL-3.0 | ClojureScript / Electron | ✅ | ✅ | ✅ (Local-first) | ✅ | Local Git / Logseq Sync |
-| **Trilium Notes** | AGPL-3.0 | Node.js / SQLite | ⚠️ | ✅ | ✅ | ❌ (Community) | Self-hosted Trilium Server |
-| **Foam** | MIT | TypeScript / VS Code | ✅ | ✅ | ✅ (Local-first) | ❌ | Git / GitHub repository sync |
-| **Notesnook** | GPL-3.0 | TypeScript / React / Rust | ✅ | ✅ | ✅ | ✅ | End-to-End Encrypted Sync Server |
-| **Standard Notes** | AGPL-3.0 | TypeScript / React Native | ✅ | ⚠️ (Paid) | ✅ | ✅ | E2EE Sync Server |
-| **SilverBullet** | MIT | TypeScript / Deno | ✅ | ✅ | ✅ | ✅ (PWA) | Local file storage / WebDAV |
-| **QOwnNotes** | GPL-2.0 | C++ / Qt | ✅ | ✅ | ✅ | ✅ (via Nextcloud Notes) | Nextcloud / ownCloud / Syncthing |
-| **flatnotes** | MIT | Python / Vue.js | ✅ | ✅ | ✅ | ✅ (PWA) | Filesystem directory / Docker |
-| **TriliumNext** | AGPL-3.0 | TypeScript / Node.js | ⚠️ | ✅ | ✅ | ❌ (Community) | Self-hosted Docker / Server sync |
-| **Poznote** | MIT | PHP / SQLite | ✅ | ✅ | ✅ | ✅ (PWA) | Git sync / Self-hosted web server |
-| **Glass Keep** | MIT | React / SQLite | ✅ | ✅ | ✅ | ✅ (PWA/Tauri) | Self-hosted Docker server |
-| **Minoo** | MIT | Tauri / Rust | ✅ | ✅ | ✅ (Local-first) | ✅ | Local network P2P sync |
+| **🍎 Apple Notes** | Proprietary | Apple Native | ✅ | ❌ | ❌ | ✅ | Apple iCloud |
+| **🪟 Microsoft Sticky Notes** | Proprietary | Windows / C++ | ✅ | ❌ | ❌ | ✅ | Microsoft Exchange / OneNote |
+| **🔍 Google Keep** | Proprietary | Cloud Web/Mobile | ✅ | ❌ | ❌ | ✅ | Google Cloud Sync |
+| **🐘 Evernote** | Proprietary | Cloud Web/Desktop | ✅ | ❌ | ❌ | ✅ | Evernote Cloud |
+| **📝 Simplenote** | Proprietary (Client Open) | Electron / React Native | ✅ | ✅ | ❌ | ✅ | Automattic Simperium Sync |
+| **🚀 AppFlowy** | AGPL-3.0 | Flutter / Rust | ✅ | ✅ | ✅ | ✅ | Local-first / AppFlowy Cloud / Self-hosted |
+| **🎨 AFFiNE** | MIT | TypeScript / Rust | ✅ | ✅ | ✅ | ✅ | Local-first / AFFiNE Cloud / Docker |
+| **📌 Memos** | MIT | Go / React / SQLite | ✅ | ✅ | ✅ | ✅ (PWA/Community) | Self-hosted Docker / REST API |
+| **📓 Joplin** | AGPL-3.0 | TypeScript / React Native | ✅ | ✅ | ✅ | ✅ | Nextcloud / WebDAV / Dropbox / Joplin Cloud |
+| **🧠 Logseq** | AGPL-3.0 | ClojureScript / Electron | ✅ | ✅ | ✅ (Local-first) | ✅ | Local Git / Logseq Sync |
+| **🌳 Trilium Notes** | AGPL-3.0 | Node.js / SQLite | ⚠️ | ✅ | ✅ | ❌ (Community) | Self-hosted Trilium Server |
+| **🧪 Foam** | MIT | TypeScript / VS Code | ✅ | ✅ | ✅ (Local-first) | ❌ | Git / GitHub repository sync |
+| **🛡️ Notesnook** | GPL-3.0 | TypeScript / React / Rust | ✅ | ✅ | ✅ | ✅ | End-to-End Encrypted Sync Server |
+| **🔐 Standard Notes** | AGPL-3.0 | TypeScript / React Native | ✅ | ⚠️ (Paid) | ✅ | ✅ | E2EE Sync Server |
+| **⚡ SilverBullet** | MIT | TypeScript / Deno | ✅ | ✅ | ✅ | ✅ (PWA) | Local file storage / WebDAV |
+| **📂 QOwnNotes** | GPL-2.0 | C++ / Qt | ✅ | ✅ | ✅ | ✅ (via Nextcloud Notes) | Nextcloud / ownCloud / Syncthing |
+| **📄 flatnotes** | MIT | Python / Vue.js | ✅ | ✅ | ✅ | ✅ (PWA) | Filesystem directory / Docker |
+| **🌿 TriliumNext** | AGPL-3.0 | TypeScript / Node.js | ⚠️ | ✅ | ✅ | ❌ (Community) | Self-hosted Docker / Server sync |
+| **🧭 Poznote** | MIT | PHP / SQLite | ✅ | ✅ | ✅ | ✅ (PWA) | Git sync / Self-hosted web server |
+| **🪟 Glass Keep** | MIT | React / SQLite | ✅ | ✅ | ✅ | ✅ (PWA/Tauri) | Self-hosted Docker server |
+| **🕊️ Minoo** | MIT | Tauri / Rust | ✅ | ✅ | ✅ (Local-first) | ✅ | Local network P2P sync |
 
 ---
 
@@ -250,11 +264,29 @@ Self-hosted, community-driven Quick Notes and Memo Management tools. Sorted by G
 
 Contributions, additions, and suggestions are warmly encouraged! To propose a new open-source note-taking or memo management tool:
 
-1. Fork this repository.
-2. Verify that the project is actively maintained (commits or releases within the last 12 months) and open source.
-3. Add the project to the list with its GitHub repository link, star badge, technology stack, license, and stand-out capabilities.
-4. Ensure the open-source list remains sorted by GitHub star count descending.
-5. Open a Pull Request with a clear description of why the tool is a great addition.
+1. 🍴 Fork this repository.
+2. 🔍 Verify that the project is actively maintained (commits or releases within the last 12 months) and open source.
+3. 📝 Add the project to the list with its GitHub repository link, star badge, technology stack, license, and stand-out capabilities.
+4. 🔢 Ensure the open-source list remains sorted by GitHub star count descending.
+5. 🚀 Open a Pull Request with a clear description of why the tool is a great addition.
+
+---
+
+## 💖 Support
+
+Thank you for exploring and using this curated guide to Quick Notes & Memo Management tools! 🙏
+
+If you found this resource helpful, please consider supporting the project:
+* ⭐ **Star** this repository on GitHub to help others discover it.
+* 🍴 **Fork** and contribute new tools, updates, or fixes.
+* 📢 **Share** this list with fellow developers, researchers, and productivity enthusiasts.
+* ☕ **Buy a Coffee / Sponsor**: Support ongoing maintenance and curation on the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Quick-Notes-Memo-Management&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Quick-Notes-Memo-Management&type=date&legend=top-left)
 
 ---
 
